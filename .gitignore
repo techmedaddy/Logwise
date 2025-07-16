@@ -1,0 +1,131 @@
+# ================================
+# BACKEND (FastAPI, Python)
+# ================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+backend/venv/
+backend/.venv/
+env/
+.venv/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+backend/.env
+backend/.env.*
+
+# Logs
+*.log
+*.pid
+
+# Coverage and test artifacts
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+.mypy_cache/
+*.cover
+*.py,cover
+
+# SQLite or DB files
+*.sqlite3
+*.db
+
+# Pydantic compiled models (if generated)
+*.schema.json
+
+# ================================
+# FRONTEND (React + Vite + Tailwind)
+# ================================
+
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/.vite/
+frontend/.vite-temp/
+
+# Lock and log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# Environment variables
+frontend/.env
+frontend/.env.*
+
+# Local dev config
+frontend/.DS_Store
+frontend/.parcel-cache
+frontend/.eslintcache
+
+# ================================
+# DOCKER
+# ================================
+
+# Docker volumes / override files
+docker-compose.override.yml
+*.pid
+*.seed
+*.backup
+
+# ================================
+# OLLAMA (Optional — model cache)
+# ================================
+
+.ollama/
+*.gguf
+
+# ================================
+# EDITORS / SYSTEM
+# ================================
+
+# VSCode
+.vscode/
+.history/
+
+# JetBrains
+.idea/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ================================
+# GENERAL TEMP
+# ================================
+
+# Output / misc
+out/
+tmp/
+temp/
+*.bak
+*.old
+*.swp
+*.swo
+*.swn
+
+# Optional: lock or cache files
+.lock-wscript
+.cache-loader
